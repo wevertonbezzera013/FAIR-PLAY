@@ -22,7 +22,7 @@ function Header() {
     return (
       
     <div className="w-full fixed top-0 left-0 z-50">
-        <div className={color ? "backdrop-blur-xl ease-in-out duration-300" : "bg-none ease-in-out duration-300"}>
+        <div className={color ? "bg-white ease-in-out duration-300" : "bg-none ease-in-out duration-300"}>
             <div className="bg-none py-5">
                 <header className=" md:flex items-center justify-between p-5">
                     <div className="">
@@ -31,12 +31,12 @@ function Header() {
                         </Link>
                     </div>
 
-                    <div className="hidden md:flex md:items-center cursor-pointer space-x-5 text-white">
+                    <div className={color ? "hidden md:flex md:items-center cursor-pointer space-x-5 text-black ease-in-out duration-300" : "hidden md:flex md:items-center cursor-pointer space-x-5 text-white ease-in-out duration-300"}>
                         <h3 className="border-b-2">Início</h3>
                         <h3 className="border-b-2">Contato</h3>
                         <h3 className="border-b-2">Blog</h3>
-                        <div className="flex items-center space-x-5 text-white">
-                            <h3 className="border px-4 py-1 rounded-full border-white">Doe agora</h3>
+                        <div className="flex items-center space-x-5">
+                            <h3 className={color ? "border px-4 py-1 rounded-full border-black text-black ease-in-out duration-300" : "border px-4 py-1 rounded-full border-white text-white ease-in-out duration-300"}>Doe agora</h3>
                         </div>
                     </div>
 
