@@ -3,7 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 
+
 const Home: NextPage = () => {
+
   return (
     <div>
       <Head>
@@ -33,7 +35,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className='mx-auto md:max-w-2xl lg:max-w-2xl mt-6 p-10'>
+      <div className='mx-auto md:max-w-2xl lg:max-w-2xl mt-6 mb-10'>
         <h1 className='text-tex-blue'>O QUE IMPORTA</h1>
         <h2 className='text-5xl font-bold text-left break-words mt-6'>LOREM IPSUM DOLOR SIT</h2>
         <br />
@@ -57,19 +59,21 @@ const Home: NextPage = () => {
 
       <div className='.mx-auto '>
 
-        <div className='flex items-center md:flex md:flex-row-reverse'>
-          <div className='px-10'>
-            <h1 className='text-white text-2xl md:text-tex-blue'>SOBRE NÓS</h1>
-            <br />
-            <h2 className='text-tex-blue md:text-black text-3xl font-bold text-left break-words'>LOREM IPSUM</h2>
-            <br />
-            <span className='text-lg text-left break-words'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
-            <br />
-            <div className='py-3 m-2 text-center bg-tex-blue text-white rounded-full p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div>
-          </div>
+        <div className='flex place-content-center'>
+          <div className='bg-mobile flex items-center md:flex md:flex-row-reverse'>
+            <div className='bg-image px-10 bg-cover bg-center bg-no-repeat'>
+              <h1 className='text-white text-2xl md:text-tex-blue mt-10'>SOBRE NÓS</h1>
+              <br />
+              <h2 className='text-tex-blue md:text-black text-3xl font-bold text-left break-words'>LOREM IPSUM</h2>
+              <br />
+              <span className='text-lg text-left break-words text-white md:text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
+              <br />
+              <div className='py-3 m-2 mt-36 md:mt-10 text-center bg-tex-blue text-white rounded-full p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div>
+            </div>
 
-          <div className='aspect-square'>
-            <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="https://s3-alpha-sig.figma.com/img/a1c2/268d/b06ddcd6bee990ed1da7691de7c9ff24?Expires=1674432000&Signature=ghoqz~~hEXsRHiuNNzwv9zVdpvwalRxfsLjkMAm~bUAs1eM9O~l~l4JMbPvs3ruex-IwvJdStXXb58mD0JKnBYIoYTHI~FD~c-CI9AZ3k~IQ8EA5S60SkLOyU3HDiNW6hssIwuSuDB8vvH1KWdq9AH7RqtTn6slIXyEIQ5~LBbf248LYbaAVEq00X970SLH2jfKx2-OYSU9R~dShnyDLIS1WnomEZidXu5JQal45BAzYeqp4Z~0QZulo6rZfHk8JHj865k7OUTPZfbwfLeBrnwiTJm6WH9dOH30Pq9PfwPCTG-Z2AzHwqUP9YmhZ7~f994uvZfAWTYGk7IkA1FP0MA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <div className='aspect-square'>
+              <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="https://s3-alpha-sig.figma.com/img/a1c2/268d/b06ddcd6bee990ed1da7691de7c9ff24?Expires=1674432000&Signature=ghoqz~~hEXsRHiuNNzwv9zVdpvwalRxfsLjkMAm~bUAs1eM9O~l~l4JMbPvs3ruex-IwvJdStXXb58mD0JKnBYIoYTHI~FD~c-CI9AZ3k~IQ8EA5S60SkLOyU3HDiNW6hssIwuSuDB8vvH1KWdq9AH7RqtTn6slIXyEIQ5~LBbf248LYbaAVEq00X970SLH2jfKx2-OYSU9R~dShnyDLIS1WnomEZidXu5JQal45BAzYeqp4Z~0QZulo6rZfHk8JHj865k7OUTPZfbwfLeBrnwiTJm6WH9dOH30Pq9PfwPCTG-Z2AzHwqUP9YmhZ7~f994uvZfAWTYGk7IkA1FP0MA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            </div>
           </div>
         </div>
 
