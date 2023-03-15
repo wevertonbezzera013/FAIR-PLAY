@@ -6,8 +6,55 @@
     font-family: 'Inter', sans-serif;
 }
 
+.bg-img-kid-goal-keeper {
+    background: url('./../public/kid-goal-keeper.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+    height: 252.41px;
+    border-radius: 30px;
+    width: 179.77px;
+}
+
+.bg-img-two-kids {
+    background: url('./../public/two-kids.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+    height: 198px;
+    border-radius: 30px;
+    width: 164px;
+}
+
+.bg-img-about-second {
+    background: url('./../public/kidsnew.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+    height: 277.15px;
+    border-radius: 10px;
+    width: 332px;
+}
+
+.bg-img-about {
+    background: linear-gradient(to top, #a6d0ff17, #111111), url('./../public/kidsnew.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    place-content: center;
+    height: 309px;
+}
+
 .bg-img {
-    background: url('https://s3-alpha-sig.figma.com/img/743f/930c/d1681e68e6ca397052e2e1699276b378?Expires=1673222400&Signature=KBJ1Xk1ppH3gC-4BtchhvnDjSDs39ID2F~NfTCupEjSDyBP2k5Eb5cGvAp0MGny0HYLfUT~gOG7i5PjcjL75UZ-VvM3j1STihsRv9bRzTAGLPyuMl0vh5itVwduUJaNwGkcrRIbYi~t76e8YlFy2UJbw77nFUFPv4QLXrXoOXq6EIjm2MBjbltIM-AtYjiZcSL9awRuzEaI0v0dhr2OktUxo7FXhx6jSg1sfose-ck9XlZbmcdMZ2~MR~~9Z~pz0ABr~B52XTPRkaUNwA9s2g0b7tty2vG1RU0pogHJtzd3LxcqWr6nYlCSSGZgORPOA5uUilbCDv5ybWQxYJwurXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background: linear-gradient(to top, #a6d0ff17, #111111), url('./../public/kids.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
@@ -15,6 +62,59 @@
     width: 100%;
     place-content: center;
     height: 601px;
+}
+
+.img-kids-playing {
+    background: linear-gradient(to top, #a6d0ff17, #111111), url('./../public/kids-playing.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    place-content: center;
+    height: 601px;
+}
+
+.img-kids-playing-two {
+    background: linear-gradient(to top, #a6d0ff17, #111111), url('./../public/kids-playing.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    place-content: center;
+    height: 857px;
+}
+
+.img-google-maps {
+    background: url('./../public/google-maps.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 257px;
+    place-content: center;
+    height: 435px;
+}
+
+.img-instagram {
+    background: url('./../public/instagram.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 257px;
+    place-content: center;
+    height: 435px;
+}
+
+.img-qrcode {
+    background: url('./../public/qrcode.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+    width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -53,10 +153,11 @@
         position: relative;
         left: 60px;
         top: -256px;
+        margin-bottom: 60px!important;
     }
 
     .secText {
-        margin-top: -226px;
+        margin-top: -352px;
     }
 
     .bg-mobile {
@@ -65,8 +166,65 @@
 
 }
 
+/* LARGE SCREEN */
+
+@media (min-width:641px) {
+
+    .bg-image-top {
+        background-image: url('https://s3-alpha-sig.figma.com/img/c9f3/972d/01c89b6e18cd190ceaf90180c0628e2b?Expires=1676851200&Signature=lAV~AKXCWopRA56yiTSd9JEO~7lu6bXoZJp8oMjBw~7tc1FwulqPwEnBPXenHx2Koun6sRPGC5DnUBCk0BLO6A8W9HdJstHt9ciYswg-IF6nKal6nwQ7mJrZP2YkmjI3AUA5xW0ikutVWv97xgpwRmTzDtjkd7UGLfY7Pyq7f0pPZwTuXaWcUIbe8hjgz6fJcn52AVvR7-oGjZVdSRequGhtOuCDJLI2~uReV5KqTsAwxuOTTY6EoBffMwUqV20cNiDvmNvn9hg~SNHYCWRiGNw-0jHnHhxrGE5xlG-DIBWZRLB5QbNxIVPqHBwn-s~d~M91GvYhcwZ9pHEPEOmWZw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+        width: 256px;
+        place-content: center;
+        height: 422px;
+        position: relative;
+    }
+
+    .bg-image-over {
+        background-image: url('https://s3-alpha-sig.figma.com/img/35f1/9045/4e664c2d0f8e91073408f2a922eef979?Expires=1676851200&Signature=cbPGGdM5FW8rUubmHoxlTR9h6eHC7nqNnOMfFxkH4lgdLnCwKIHXx4Itwg1p1nfSFkMo75u8jBZkOSq~aHMgjhhrRoMLGtUYyna1VLNE2IvF3oXapwk3Yg9MEEnYdWp1S1lKS2~SJ-TVvFs273OWuz~G4fIYzh4bb3UVCsI-w8Ce0F68dLka03HOV8LzQv54oyfExDQYwEY~5NaOApuWW~h8p6R-ZaEUQDJmgTxZzbKU7x6RmPr5~Y52lz3PZ6bRSV1G8C~u3SqyTjl0PJYeDz~F2IUvCfCt45-y6Whn-qahNZ52eNgmf3FJKYc4wr7GdZS0KlRGAXEnXNv~G7SHuA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+        width: 256px;
+        place-content: center;
+        height: 422px;
+        position: relative;
+        left: 131px;
+        top: -368px;
+        margin-bottom: -221px;
+    }
+
+    .bg-img-kid-goal-keeper {
+        background: url('./../public/kid-goal-keeper.jpg');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        place-content: center;
+        height: 450px;
+        border-radius: 30px;
+        width: 350px;
+    }
+    
+    .bg-img-two-kids {
+        background: url('./../public/two-kids.jpg');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        place-content: center;
+        height: 376px;
+        border-radius: 30px;
+        width: 292px;
+    }
+
+}
+
 .backImg {
-    background: linear-gradient(to bottom, rgba(1, 71, 157, 0.2), rgba(0, 0, 0, 0.7)), url('https://s3-alpha-sig.figma.com/img/743f/930c/d1681e68e6ca397052e2e1699276b378?Expires=1673222400&Signature=KBJ1Xk1ppH3gC-4BtchhvnDjSDs39ID2F~NfTCupEjSDyBP2k5Eb5cGvAp0MGny0HYLfUT~gOG7i5PjcjL75UZ-VvM3j1STihsRv9bRzTAGLPyuMl0vh5itVwduUJaNwGkcrRIbYi~t76e8YlFy2UJbw77nFUFPv4QLXrXoOXq6EIjm2MBjbltIM-AtYjiZcSL9awRuzEaI0v0dhr2OktUxo7FXhx6jSg1sfose-ck9XlZbmcdMZ2~MR~~9Z~pz0ABr~B52XTPRkaUNwA9s2g0b7tty2vG1RU0pogHJtzd3LxcqWr6nYlCSSGZgORPOA5uUilbCDv5ybWQxYJwurXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background: linear-gradient(to bottom, rgba(1, 71, 157, 0.2), rgba(0, 0, 0, 0.7)), url('./../public/kids.jpg');
     position: relative;
     background-size: cover;
     background-position: center;

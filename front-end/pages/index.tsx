@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Image from 'next/image';
+
 
 const Home: NextPage = () => {
 
@@ -17,16 +19,16 @@ const Home: NextPage = () => {
       <div>
         <div className='bg-img'>
           <div className='container pl-10 absolute top-32'>
-            <span className='text-white text-5xl font-bold text-left break-words'>
+            <span className='text-white text-5xl font-bold text-left break-words lg:text-7xl'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </span>
             <br />
             <div className='container pt-1'>
-              <span className='text-white text-1xl font-thin break-words'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</span>
+              <span className='text-white text-2xl font-thin break-words lg:text-5xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</span>
             </div>
 
-            <div className='pt-4'>
-              <span className='bg-butt-back rounded-full p-2 text-1xl font-bold cursor-pointer'>
+            <div className='mt-7 py-3 m-2 md:mt-10 text-center lg:text-3xl bg-butt-back hover:bg-amber-200 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer lg:w-1/3 md:w-1/3'>
+              <span className=''>
                 DOE AGORA
               </span>
             </div>
@@ -34,27 +36,38 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className='pt-20 flex justify-center'>
-        <div className='relative'>
-          <div className='bg-image-top'></div>
-          <div className='bg-image-over'></div>
-        </div>
+      <div>
+        <h1 className=' text-tex-blue text-4xl font-bold pt-10 pl-10 md:hidden'>SOBRE NÓS</h1>
       </div>
 
-      <div className='secText'>
-        <div>
-          <h1 className='hidden md:block'>SOBRE NÓS</h1>
-          <h2 className='hidden md:block'>LOREM IPSUM</h2>
-          <p className='p-5 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-          <div className='pt-4 flex justify-center'>
-            <span className='bg-tex-blue text-white rounded-xl pl-7 pr-7 p-3 text-1xl font-bold cursor-pointer'>
-              DOE AGORA
-            </span>
+      <div className='md:flex md:pl-10 md:pt-10 md:max-w-full lg:pl-64 lg:pr-64'>
+
+        <div className='pt-20 flex justify-center'>
+          <div className='relative'>
+            <div className='bg-image-top'></div>
+            <div className='bg-image-over'></div>
           </div>
         </div>
+
+        <div className='secText md:pl-48 lg:pl-48 lg:pt-16'>
+          <div className=''>
+            <h1 className='text-2xl hidden md:block lg:block lg:text-5xl text-tex-blue mt-10'>SOBRE NÓS</h1>
+            <br />
+            <h2 className='hidden md:block lg:block lg:text-6xl md:text-black md:text-3xl md:font-bold md:text-left md:break-words'>LOREM IPSUM</h2>
+            <br />
+            <p className='p-5 text-center lg:text-3xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
+            <a href="/about">
+              <div className='py-3 m-2 mt-0 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer'>
+                LEIA MAIS
+              </div>
+            </a>
+          </div>
+        </div>
+
       </div>
 
-      <div className='mx-auto md:max-w-2xl lg:max-w-2xl mt-6 mb-10'>
+
+      <div className='mx-auto my-auto md:max-w-2xl lg:max-w-2xl mt-6 md:mt-0 mb-10 lg:text-3xl'>
         <div className='md:flex lg:flex'>
           <div className="mt-6 flex flex-row items-center md:flex lg:flex md:flex-col lg:flex-col">
             <svg width="135" height="131" viewBox="0 0 135 131" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,29 +117,29 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className='.mx-auto '>
+      <div className='.mx-auto lg:pl-48 lg:pr-48 lg:pt-20'>
 
         <div className='flex place-content-center'>
           <div className='bg-mobile flex items-center md:flex md:flex-row-reverse'>
             <div className='bg-image px-10 bg-cover bg-center bg-no-repeat'>
-              <h1 className='text-white text-2xl md:text-tex-blue mt-10'>SOBRE NÓS</h1>
+              <h1 className='text-white lg:text-5xl text-2xl md:text-tex-blue mt-10'>SOBRE NÓS</h1>
               <br />
-              <h2 className='text-tex-blue md:text-black text-3xl font-bold text-left break-words'>LOREM IPSUM</h2>
+              <h2 className='text-tex-blue md:text-black lg:text-6xl text-3xl font-bold text-left break-words'>LOREM IPSUM</h2>
               <br />
-              <span className='text-lg text-left break-words text-white md:text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
+              <span className='text-lg text-left break-words lg:text-3xl text-white md:text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
               <br />
-              <div className='py-3 m-2 mt-36 md:mt-10 text-center bg-tex-blue text-white rounded-full p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div>
+              <a href="/about"><div className='py-3 m-2 mt-36 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div></a>
             </div>
 
             <div className='aspect-square'>
-              <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="https://s3-alpha-sig.figma.com/img/a1c2/268d/b06ddcd6bee990ed1da7691de7c9ff24?Expires=1674432000&Signature=ghoqz~~hEXsRHiuNNzwv9zVdpvwalRxfsLjkMAm~bUAs1eM9O~l~l4JMbPvs3ruex-IwvJdStXXb58mD0JKnBYIoYTHI~FD~c-CI9AZ3k~IQ8EA5S60SkLOyU3HDiNW6hssIwuSuDB8vvH1KWdq9AH7RqtTn6slIXyEIQ5~LBbf248LYbaAVEq00X970SLH2jfKx2-OYSU9R~dShnyDLIS1WnomEZidXu5JQal45BAzYeqp4Z~0QZulo6rZfHk8JHj865k7OUTPZfbwfLeBrnwiTJm6WH9dOH30Pq9PfwPCTG-Z2AzHwqUP9YmhZ7~f994uvZfAWTYGk7IkA1FP0MA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+              <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="/kid-soccer-ball.jpg" />
             </div>
           </div>
         </div>
 
       </div>
 
-      <Footer/>
+      <Footer />
 
     </div>
   )
