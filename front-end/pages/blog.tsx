@@ -30,7 +30,7 @@ const QUERY = gql`
 `
 
 export async function getStaticProps() {
-  const { posts } = await graphcms.request(QUERY)
+  const { posts } = await graphcms.request<any>(QUERY);
   return {
     props: {
       posts,
@@ -39,7 +39,7 @@ export async function getStaticProps() {
   }
 }
 
-const Blog = ({ posts }) => {
+const Blog = ({ posts }: { posts: any[] }) => {
   return (
     <div>
 
