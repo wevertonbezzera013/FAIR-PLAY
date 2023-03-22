@@ -32,9 +32,9 @@ function Header() {
             <div className={color ? "bg-white ease-in-out duration-300" : "bg-none ease-in-out duration-300"}>
                 <div className="bg-none py-1">
                     <header className="flex md:flex items-center justify-between p-5">
-                        <div className="">
+                        <div className="w-32">
                             <Link href="/">
-                                <img className="w-14 object-contain cursor-pointer" src="https://s3-alpha-sig.figma.com/img/1ff4/88a0/9170b65b55cf94a37bd7e028d40ec718?Expires=1677456000&Signature=e9PnuYLfLDDsbYyL6mub6rP3H2EtSpUFKOTvKMbTY1jTZOJSBgy3aX0656fgdQrDZ1srucioriNHSm2jKdHfwkh8LT2Vt1PureWHNMbZDHzAtn7kZtyl3YDF9x8Gm84~jyvYiNsGc65~OUSXsJChkcXIVNi7Tln3doB0F-N60sowyASuab3c9LZLONeFB46NY-J9louyUhPyacgsIQXbspfY2mb9uRqpWKpBvhL~4UpqXKMX55l5lH7tGV0Fa7C1hIzR2paP5tXTk3LriLqW9dmZWMR1xIacYCxxgS5cp4hq-tpw6jrl6hhKsg~xQ1iraMeKyFF2I94N1htUe0IbSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                                <h1 className={color ? "md:flex md:items-center cursor-pointer space-x-5 text-black ease-in-out duration-300" : " md:flex md:items-center cursor-pointer space-x-5 text-white ease-in-out duration-300"}>LOGO GO HERE</h1>
                             </Link>
                         </div>
 

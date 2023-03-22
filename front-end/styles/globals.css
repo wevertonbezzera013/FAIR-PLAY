@@ -56,12 +56,22 @@
 .bg-img {
     background: linear-gradient(to top, #a6d0ff17, #111111), url('./../public/kids.jpg');
     position: relative;
-    background-size: cover;
+    object-fit: cover!important;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     place-content: center;
     height: 601px;
+}
+
+.img-slug {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    place-content: center;
+    height: 309px;
 }
 
 .img-kids-playing {
@@ -119,7 +129,7 @@
 
 @media (max-width: 767px) {
     .bg-image {
-        background-image: linear-gradient(to bottom, #a6d0ff17, #111111), url('https://s3-alpha-sig.figma.com/img/a1c2/268d/b06ddcd6bee990ed1da7691de7c9ff24?Expires=1676851200&Signature=fnSExTSjhH4OJUre4HraM-kcHJ9ibjj3xL9d5ay04QDXpteI9x~X5yLMDwXNiodJqaNRhb0oMTVmXgr2B~JGGBXFPZADRkxbalfY~POoBv7HzAa36TM37govM9KyqYHO6AMf58b5MO1fgrL5ArsMMGySigE~MtsLXsF5oe9OJ8-1KKbaDya5KPXOncMK5uzHs0QtF8ivzzgo1FJ6RbcVJvVv2wf4oiQIvPkVioE91Uj6F0QlSTGqoSpdnMv0M~U7T9MRCdIU16sc7gKBy1SqAlU2oK48F6U92XESR0ZZHYnv~lEc31H22QwAE7rtK-qCqJ~heES9xG8KhsVG5sTsSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-image: linear-gradient(to bottom, #a6d0ff17, #111111), url('./../public/kids-playing.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -130,7 +140,7 @@
     }
 
     .bg-image-top {
-        background-image: url('https://s3-alpha-sig.figma.com/img/c9f3/972d/01c89b6e18cd190ceaf90180c0628e2b?Expires=1676851200&Signature=lAV~AKXCWopRA56yiTSd9JEO~7lu6bXoZJp8oMjBw~7tc1FwulqPwEnBPXenHx2Koun6sRPGC5DnUBCk0BLO6A8W9HdJstHt9ciYswg-IF6nKal6nwQ7mJrZP2YkmjI3AUA5xW0ikutVWv97xgpwRmTzDtjkd7UGLfY7Pyq7f0pPZwTuXaWcUIbe8hjgz6fJcn52AVvR7-oGjZVdSRequGhtOuCDJLI2~uReV5KqTsAwxuOTTY6EoBffMwUqV20cNiDvmNvn9hg~SNHYCWRiGNw-0jHnHhxrGE5xlG-DIBWZRLB5QbNxIVPqHBwn-s~d~M91GvYhcwZ9pHEPEOmWZw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-image: url('./../public/kidsnew.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -142,7 +152,7 @@
     }
 
     .bg-image-over {
-        background-image: url('https://s3-alpha-sig.figma.com/img/35f1/9045/4e664c2d0f8e91073408f2a922eef979?Expires=1676851200&Signature=cbPGGdM5FW8rUubmHoxlTR9h6eHC7nqNnOMfFxkH4lgdLnCwKIHXx4Itwg1p1nfSFkMo75u8jBZkOSq~aHMgjhhrRoMLGtUYyna1VLNE2IvF3oXapwk3Yg9MEEnYdWp1S1lKS2~SJ-TVvFs273OWuz~G4fIYzh4bb3UVCsI-w8Ce0F68dLka03HOV8LzQv54oyfExDQYwEY~5NaOApuWW~h8p6R-ZaEUQDJmgTxZzbKU7x6RmPr5~Y52lz3PZ6bRSV1G8C~u3SqyTjl0PJYeDz~F2IUvCfCt45-y6Whn-qahNZ52eNgmf3FJKYc4wr7GdZS0KlRGAXEnXNv~G7SHuA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-image: url('./../public/kids-playing.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -171,7 +181,7 @@
 @media (min-width:641px) {
 
     .bg-image-top {
-        background-image: url('https://s3-alpha-sig.figma.com/img/c9f3/972d/01c89b6e18cd190ceaf90180c0628e2b?Expires=1676851200&Signature=lAV~AKXCWopRA56yiTSd9JEO~7lu6bXoZJp8oMjBw~7tc1FwulqPwEnBPXenHx2Koun6sRPGC5DnUBCk0BLO6A8W9HdJstHt9ciYswg-IF6nKal6nwQ7mJrZP2YkmjI3AUA5xW0ikutVWv97xgpwRmTzDtjkd7UGLfY7Pyq7f0pPZwTuXaWcUIbe8hjgz6fJcn52AVvR7-oGjZVdSRequGhtOuCDJLI2~uReV5KqTsAwxuOTTY6EoBffMwUqV20cNiDvmNvn9hg~SNHYCWRiGNw-0jHnHhxrGE5xlG-DIBWZRLB5QbNxIVPqHBwn-s~d~M91GvYhcwZ9pHEPEOmWZw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-image: url('./../public/kidsnew.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -183,7 +193,7 @@
     }
 
     .bg-image-over {
-        background-image: url('https://s3-alpha-sig.figma.com/img/35f1/9045/4e664c2d0f8e91073408f2a922eef979?Expires=1676851200&Signature=cbPGGdM5FW8rUubmHoxlTR9h6eHC7nqNnOMfFxkH4lgdLnCwKIHXx4Itwg1p1nfSFkMo75u8jBZkOSq~aHMgjhhrRoMLGtUYyna1VLNE2IvF3oXapwk3Yg9MEEnYdWp1S1lKS2~SJ-TVvFs273OWuz~G4fIYzh4bb3UVCsI-w8Ce0F68dLka03HOV8LzQv54oyfExDQYwEY~5NaOApuWW~h8p6R-ZaEUQDJmgTxZzbKU7x6RmPr5~Y52lz3PZ6bRSV1G8C~u3SqyTjl0PJYeDz~F2IUvCfCt45-y6Whn-qahNZ52eNgmf3FJKYc4wr7GdZS0KlRGAXEnXNv~G7SHuA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-image: url('./../public/kids-playing.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
