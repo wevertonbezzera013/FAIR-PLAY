@@ -34,7 +34,7 @@ function Header() {
                     <header className="flex md:flex items-center justify-between p-5">
                         <div className="w-32">
                             <Link href="/">
-                                <h1 className={color ? "md:flex md:items-center cursor-pointer space-x-5 text-black ease-in-out duration-300" : " md:flex md:items-center cursor-pointer space-x-5 text-white ease-in-out duration-300"}>LOGO GO HERE</h1>
+                                <h1 className={color ? "md:flex text-5xl md:items-center cursor-pointer space-x-5 text-black ease-in-out duration-300" : " md:flex md:items-center cursor-pointer space-x-5 text-white ease-in-out duration-300"}>FAIRPLAY</h1>
                             </Link>
                         </div>
 

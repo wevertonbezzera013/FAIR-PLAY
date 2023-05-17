@@ -129,7 +129,7 @@
 
 @media (max-width: 767px) {
     .bg-image {
-        background-image: linear-gradient(to bottom, #a6d0ff17, #111111), url('./../public/kids-playing.jpg');
+        background-image: linear-gradient(to bottom, #a6d0ff17, #111111), url('./../public/kids-pic.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

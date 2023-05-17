@@ -3,9 +3,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-const graphcms = new GraphQLClient(
-  "https://api-sa-east-1.hygraph.com/v2/clfa5s4ft1p1d01t9gum6d7mp/master"
-);
+const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_API_KEY);
 
 const QUERY = gql`
   query Post($slug: String!) {

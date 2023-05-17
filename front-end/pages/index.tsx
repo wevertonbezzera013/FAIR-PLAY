@@ -131,7 +131,7 @@ const Home: NextPage = () => {
             </div>
 
             <div className='aspect-square'>
-              <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="/kid-soccer-ball.jpg" />
+              <img className='hidden md:block w-full h-full rounded-3xl md:rounded-none' src="/kids-pic.jpg" />
             </div>
           </div>
         </div>
