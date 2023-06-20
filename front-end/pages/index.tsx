@@ -26,11 +26,13 @@ const Home: NextPage = () => {
               <span className='text-white text-2xl font-thin break-words lg:text-5xl'>Um esporte que une pessoas de diversas origens, descobre talentos e constrói caminhos promissores, tanto nos campos de várzea quanto nos grandes estádios.</span>
             </div>
 
-            <div className='mt-7 py-3 m-2 md:mt-10 text-center lg:text-3xl bg-butt-back hover:bg-amber-200 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer lg:w-1/3 md:w-1/3'>
-              <span className=''>
-                DOE AGORA
-              </span>
-            </div>
+            <a href="/donate">
+              <div className='mt-7 py-3 m-2 md:mt-10 text-center lg:text-3xl bg-butt-back hover:bg-amber-200 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer lg:w-1/3 md:w-1/3'>
+                <span className=''>
+                  DOE AGORA
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
