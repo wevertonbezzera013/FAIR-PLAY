@@ -47,12 +47,16 @@ const about = () => {
 
                             <div className='pt-10 text-left'>
                                 <span className='text-black text-4xl font-bold break-words lg:text-5xl md:text-5xl'>
-                                    Lorem ipsum dolor sit amet.
+                                    NOSSA MISSÃO
                                 </span>
                             </div>
                             <br />
                             <div className='container pt-1 text-left'>
-                                <span className='text-black font-thin break-words lg:text-3xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</span>
+                                <span className='text-black font-thin break-words lg:text-3xl'>A organização tem como missão promover a inclusão social integral de crianças,
+                                    adolescentes e jovens através de projetos sociais esportivos, tendo como
+                                    atividade principal, mas não limitada, à promoção da observação, treinamento e
+                                    formação de novos atletas.
+                                </span>
                             </div>
                         </div>
 
@@ -78,11 +82,21 @@ const about = () => {
 
             <div className='pt-24'>
                 <div className='img-kids-playing absolute'>
+                    <div className='absolute flex flex-col top-24 lg:top-52 md:top-52 pl-10 pr-10'>
+                        <span className='text-white text-4xl pb-2 font-bold break-words lg:text-5xl md:text-5xl'>
+                            NOSSA VISÃO
+                        </span>
+                        <div className='text-white top-24 lg:text-3xl'>
 
-                    <div className='absolute text-white top-52 pl-10 pr-44 lg:text-3xl'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.
+                            Temos como visão que só o desenvolvimento da prática esportiva e o
+                            direcionamento de crianças, adolescentes e jovens para a profissionalização no
+                            futebol, é insuficiente, uma vez que para promoção do desenvolvimento do ser
+                            humano, em especial os de baixa renda, é necessário ir além e, integrar às ações
+                            da organização social, atividades complementares para de fato promovermos o
+                            desenvolvimento humano integrado e assim preparar ao mercado do futebol,
+                            capazes de gerir uma carreira sustentável.
+                        </div>
                     </div>
-
                 </div>
             </div>
 
@@ -90,7 +104,7 @@ const about = () => {
                 <div className='text-center lg:hidden md:hidden'>
                     <h1 className='text-1xl text-tex-blue mt-10'>LOCALIZAÇÃO</h1>
                     <br />
-                    <h2 className='text-black text-5xl bold font-bold'>VISIT US</h2>
+                    <h2 className='text-black text-5xl bold font-bold'>VENHA NOS VISITAR</h2>
                     <br />
                     <p className='text-2xl'>FIND US ON GOOGLE MAPS</p>
                 </div>
@@ -104,9 +118,9 @@ const about = () => {
                     <div className='text-left hidden lg:block md:block'>
                         <h1 className='text-1xl text-tex-blue mt-10'>LOCALIZAÇÃO</h1>
                         <br />
-                        <h2 className='text-black text-5xl bold font-bold'>VISIT US</h2>
+                        <h2 className='text-black text-5xl bold font-bold'>VENHA NOS VISITAR</h2>
                         <br />
-                        <p className='text-2xl'>FIND US ON GOOGLE MAPS</p>
+                        <p className='text-2xl'>ENCONTRE-NOS NO GOOGLE MAPS</p>
                     </div>
 
                     <div className='flex flex-row justify-center lg:justify-start md:justify-start pt-20'>
@@ -126,11 +140,11 @@ const about = () => {
 
                         <div>
                             <h1 className='text-2xl'>
-                                Lorem ipsum
+                                Duque de Caxias
                             </h1>
 
                             <p className='text-1xl text-gray-600 break-words'>
-                                Lorem ipsum dolor sit amet
+                                Duque de Caxias
                             </p>
 
                         </div>
@@ -138,7 +152,7 @@ const about = () => {
 
                     <div className='pt-10'>
                         <div className='break-words pl-5 pr-5 py-3 m-2 mt-0 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl cursor-pointer'>
-                            ENTRE EM CONTATO
+                            <a href="https://www.instagram.com/fairplay.brasil/">ENTRE EM CONTATO</a>
                         </div>
                     </div>
 

@@ -17,13 +17,13 @@ const Home: NextPage = () => {
 
       <div>
         <div className='bg-img'>
-          <div className='container pl-10 absolute top-32'>
-            <span className='text-white text-5xl font-bold text-left break-words lg:text-7xl'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <div className='container pl-10 pr-10 absolute top-24'>
+            <span className='text-white text-3xl font-bold text-left break-words lg:text-7xl'>
+              Transformando vidas por meio da arte, oportunidade e formação de cidadãos.
             </span>
             <br />
             <div className='container pt-1'>
-              <span className='text-white text-2xl font-thin break-words lg:text-5xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</span>
+              <span className='text-white text-2xl font-thin break-words lg:text-5xl'>Um esporte que une pessoas de diversas origens, descobre talentos e constrói caminhos promissores, tanto nos campos de várzea quanto nos grandes estádios.</span>
             </div>
 
             <div className='mt-7 py-3 m-2 md:mt-10 text-center lg:text-3xl bg-butt-back hover:bg-amber-200 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer lg:w-1/3 md:w-1/3'>
@@ -40,7 +40,6 @@ const Home: NextPage = () => {
       </div>
 
       <div className='md:flex md:pl-10 md:pt-10 md:max-w-full lg:pl-64 lg:pr-64'>
-
         <div className='pt-20 flex justify-center'>
           <div className='relative'>
             <div className='bg-image-top'></div>
@@ -52,9 +51,10 @@ const Home: NextPage = () => {
           <div className=''>
             <h1 className='text-2xl hidden md:block lg:block lg:text-5xl text-tex-blue mt-10'>SOBRE NÓS</h1>
             <br />
-            <h2 className='hidden md:block lg:block lg:text-6xl md:text-black md:text-3xl md:font-bold md:text-left md:break-words'>LOREM IPSUM</h2>
+            <h2 className='hidden md:block lg:block lg:text-6xl md:text-black md:text-3xl md:font-bold md:text-left md:break-words'>TRANSFORMANDO SONHOS EM REALIDADE</h2>
             <br />
-            <p className='p-5 text-center lg:text-3xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
+            <p className='p-5 text-center lg:text-3xl'>
+              Desde 2006, o Centro de Observação e Formação de Atleta tem desempenhado um papel fundamental como organização não governamental em Duque de Caxias, atendendo jovens que almejam se tornar atletas. Com um compromisso inabalável, nossa equipe dedica-se a transformar sonhos em realidade, proporcionando treinamento, suporte e oportunidades para que os jovens desenvolvam seu potencial máximo no esporte. Continuamos a inspirar e capacitar uma nova geração de atletas, moldando suas carreiras e contribuindo para seu sucesso dentro e fora dos campos. Leia mais para conhecer nossa história e impacto na comunidade.</p>
             <a href="/about">
               <div className='py-3 m-2 mt-0 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer'>
                 LEIA MAIS
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
                 </clipPath>
               </defs>
             </svg>
-            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>O futebol, com sua essência artística, proporciona oportunidades únicas para a formação de cidadãos.</span>
           </div>
 
           <div className="mt-6 flex flex-row items-center md:flex lg:flex md:flex-col lg:flex-col">
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
               <path d="M115.787 44.0903C122.453 37.4757 119.413 29.7499 115.787 25.9928L99.7866 10.1178C93.0666 3.50321 85.3333 6.51946 81.5466 10.1178L72.4799 19.1665H58.6666C48.5333 19.1665 42.6666 24.4582 39.6799 30.5436L15.9999 54.0386V75.2053L12.2133 78.9095C5.54661 85.577 8.58661 93.2499 12.2133 97.007L28.2133 112.882C31.0933 115.739 34.1866 116.798 37.1199 116.798C40.9066 116.798 44.3733 114.946 46.4533 112.882L60.8533 98.5415H79.9999C89.0666 98.5415 93.6533 92.9324 95.3066 87.429C101.333 85.8415 104.64 81.2907 105.973 76.8457C114.24 74.729 117.333 66.9503 117.333 61.4999V45.6249H114.187L115.787 44.0903ZM106.667 61.4999C106.667 63.8811 105.653 66.7915 101.333 66.7915H95.9999V72.0832C95.9999 74.4645 94.9866 77.3749 90.6666 77.3749H85.3333V82.6665C85.3333 85.0478 84.3199 87.9582 79.9999 87.9582H56.4799L38.9866 105.315C37.3333 106.849 36.3733 105.95 35.7866 105.368L19.8399 89.5986C18.2933 87.9582 19.1999 87.0057 19.7866 86.4236L26.6666 79.5445V58.3778L37.3333 47.7945V56.2082C37.3333 62.6111 41.5999 72.0832 53.3333 72.0832C65.0666 72.0832 69.3333 62.6111 69.3333 56.2082H106.667V61.4999ZM108.213 36.5761L99.1466 45.6249H58.6666V56.2082C58.6666 58.5895 57.6533 61.4999 53.3333 61.4999C49.0133 61.4999 47.9999 58.5895 47.9999 56.2082V40.3332C47.9999 37.899 48.9066 29.7499 58.6666 29.7499H76.8533L89.0133 17.6849C90.6666 16.1503 91.6266 17.0499 92.2133 17.632L108.16 33.4011C109.707 35.0415 108.8 35.994 108.213 36.5761Z" fill="#01479D" />
             </svg>
 
-            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>Através do futebol, encontramos uma oportunidade de unir a arte e a formação de cidadãos em um só objetivo.</span>
           </div>
 
           <div className="mt-6 flex flex-row items-center md:flex lg:flex md:flex-col lg:flex-col">
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
               <path d="M74.6666 77.3751C74.6666 83.2488 69.9199 87.9584 63.9999 87.9584C61.1709 87.9584 58.4578 86.8434 56.4575 84.8586C54.4571 82.8739 53.3333 80.182 53.3333 77.3751C53.3333 71.5013 58.0799 66.7917 63.9999 66.7917C66.8289 66.7917 69.542 67.9068 71.5424 69.8915C73.5428 71.8763 74.6666 74.5682 74.6666 77.3751ZM69.8133 103.833C70.4533 107.643 71.7866 111.189 73.6533 114.417H31.9999C29.1709 114.417 26.4578 113.302 24.4574 111.317C22.4571 109.332 21.3333 106.64 21.3333 103.833V50.9167C21.3333 45.043 26.0799 40.3334 31.9999 40.3334H37.3333V29.7501C37.3333 15.1451 49.2799 3.29175 63.9999 3.29175C78.7199 3.29175 90.6666 15.1451 90.6666 29.7501V40.3334H95.9999C98.8289 40.3334 101.542 41.4484 103.542 43.4332C105.543 45.418 106.667 48.1099 106.667 50.9167V67.268C104.907 67.0034 103.147 66.7917 101.333 66.7917C99.5199 66.7917 97.7599 67.0034 95.9999 67.268V50.9167H31.9999V103.833H69.8133ZM47.9999 40.3334H79.9999V29.7501C79.9999 20.9659 72.8533 13.8751 63.9999 13.8751C55.1466 13.8751 47.9999 20.9659 47.9999 29.7501V40.3334ZM113.813 81.8201L94.6666 100.817L86.1866 92.4034L79.9999 98.5417L94.6666 114.417L120 89.2813L113.813 81.8201Z" fill="#01479D" />
             </svg>
 
-            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            <span className='container break-words text-center font-bold md:font-normal lg:font-normal'>A arte do futebol abre portas para oportunidades de formação de cidadãos engajados e conscientes.</span>
           </div>
         </div>
       </div>
@@ -121,13 +121,13 @@ const Home: NextPage = () => {
         <div className='flex place-content-center'>
           <div className='bg-mobile flex items-center md:flex md:flex-row-reverse'>
             <div className='bg-image px-10 bg-cover bg-center bg-no-repeat'>
-              <h1 className='text-white lg:text-5xl text-2xl md:text-tex-blue mt-10'>SOBRE NÓS</h1>
+              <h1 className='text-white lg:text-5xl text-2xl md:text-tex-blue mt-10'>MOTIVAÇÃO</h1>
               <br />
-              <h2 className='text-tex-blue md:text-black lg:text-6xl text-3xl font-bold text-left break-words'>LOREM IPSUM</h2>
+              <h2 className='text-tex-blue md:text-black lg:text-6xl text-2xl font-bold text-left break-words uppercase'>Esperança e transformação</h2>
               <br />
-              <span className='text-lg text-left break-words lg:text-3xl text-white md:text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
+              <span className='text-lg text-left break-words lg:text-3xl text-white md:text-black'>No Brasil, conhecido como o país do futebol, esse esporte oferece oportunidades únicas para mudar vidas em comunidades vulneráveis. Para crianças e jovens, o futebol é o esporte dos sonhos, uma chance de transformar suas vidas e de suas famílias.</span>
               <br />
-              <a href="/about"><div className='py-3 m-2 mt-36 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div></a>
+              <a href="/about"><div className='py-3 m-2 mt-12 md:mt-10 text-center lg:text-3xl bg-tex-blue hover:bg-sky-600 ease-in-out duration-300 text-white rounded-xl p-2 text-1xl font-bold cursor-pointer'>LEIA MAIS</div></a>
             </div>
 
             <div className='aspect-square'>

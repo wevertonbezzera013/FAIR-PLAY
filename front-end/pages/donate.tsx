@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 const Donate = () => {
     const [text, setText] = useState(
-        'CHAVE PIX'
+        '45.739.677/0001-84'
     );
 
     const handleCopy = async () => {
@@ -135,13 +135,13 @@ const Donate = () => {
             <div className='pt-24'>
                 <div className='img-kids-playing-two absolute'>
 
-                    <div className='absolute text-end top-52 pl-48 pr-10'>
+                    <div className='absolute text-end top-52 pl-10 lg:pl-48 pr-10'>
 
                         <div className='text-white lg:pl-80'>
-                            <h1 className='text-2xl lg:text-5xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                            <h1 className='text-2xl lg:text-5xl'>NOSSA PROPOSTA</h1>
 
                             <p className='text-end text-1xl text-white pt-5 lg:text-3xl'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.
+                                Nossa proposta busca apoio financeiro e materiais esportivos para a fundação e manutenção do Centro de Observação e Formação de Atleta. Com o intuito de prestar atendimento psicológico, oferecer alimentação, formação cultural, educação financeira, inclusão tecnológica e integração com as famílias, nosso projeto visa criar uma rede de apoio para jovens em situação de vulnerabilidade. Além disso, buscamos prepará-los para uma vida de sucesso, oferecendo uma ação preventiva aos impactos da violência. A maioria dos atendidos são negros, moradores de periferia, de baixa renda e com déficit de acesso a recursos e informações adequadas.
                             </p>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ const Donate = () => {
 
             <div className='lg:flex lg:justify-center lg:pl-72 lg:pr-72 pt-10 pb-28'>
                 <div className='text-start pl-5 lg:hidden md:hidden'>
-                    <h1 className='text-1xl text-tex-blue mt-10'>SIGA-NOS NAS <br /> REDES SOCIAIS</h1>
+                    <h1 className='text-3xl text-tex-blue mt-10'>SIGA-NOS NAS <br /> REDES SOCIAIS</h1>
                 </div>
 
                 <div className='flex justify-center lg:hidden md:hidden'>
@@ -167,13 +167,13 @@ const Donate = () => {
                     <div className='flex flex-row justify-center lg:justify-start md:justify-start pt-5'>
                         <div>
                             <h1 className='text-2xl lg:text-5xl'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                Acompanhe nosso projeto de pertinho e saiba de todas as nossas notícias e novidades.
                             </h1>
 
                         </div>
                     </div>
 
-                    <a href="">
+                    <a href="https://www.instagram.com/fairplay.brasil/">
                         <div className='flex justify-center pt-5'>
                             <svg width="248" height="53" viewBox="0 0 248 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M84.7962 17.7273V33H82.4919V17.7273H84.7962ZM100.479 17.7273V33H98.3612L90.5981 21.799H90.4564V33H88.152V17.7273H90.2848L98.0554 28.9432H98.1971V17.7273H100.479ZM112.17 21.7393C112.091 21.0334 111.763 20.4865 111.186 20.0987C110.609 19.706 109.883 19.5096 109.008 19.5096C108.382 19.5096 107.84 19.609 107.383 19.8079C106.925 20.0018 106.57 20.2702 106.316 20.6133C106.068 20.9513 105.943 21.3366 105.943 21.7692C105.943 22.1321 106.028 22.4453 106.197 22.7088C106.371 22.9723 106.597 23.1935 106.876 23.3725C107.159 23.5465 107.462 23.6932 107.785 23.8125C108.109 23.9268 108.419 24.0213 108.718 24.0959L110.209 24.4837C110.696 24.603 111.196 24.7646 111.708 24.9684C112.22 25.1722 112.695 25.4407 113.132 25.7738C113.57 26.1069 113.923 26.5195 114.191 27.0117C114.465 27.5039 114.602 28.093 114.602 28.7791C114.602 29.6442 114.378 30.4123 113.93 31.0835C113.488 31.7546 112.844 32.2841 111.999 32.6719C111.159 33.0597 110.142 33.2536 108.949 33.2536C107.805 33.2536 106.816 33.0721 105.981 32.7092C105.146 32.3462 104.492 31.8317 104.019 31.1655C103.547 30.4943 103.286 29.6989 103.236 28.7791H105.548C105.593 29.331 105.772 29.7908 106.085 30.1587C106.403 30.5217 106.809 30.7926 107.301 30.9716C107.798 31.1456 108.342 31.2326 108.934 31.2326C109.585 31.2326 110.164 31.1307 110.671 30.9268C111.184 30.718 111.586 30.4297 111.88 30.0618C112.173 29.6889 112.32 29.2539 112.32 28.7567C112.32 28.3043 112.19 27.9339 111.932 27.6456C111.678 27.3572 111.333 27.1186 110.895 26.9297C110.463 26.7408 109.973 26.5742 109.426 26.43L107.621 25.9379C106.398 25.6048 105.429 25.1151 104.713 24.4688C104.002 23.8224 103.647 22.9673 103.647 21.9034C103.647 21.0234 103.885 20.2553 104.363 19.5991C104.84 18.9428 105.486 18.4332 106.301 18.0703C107.117 17.7024 108.037 17.5185 109.061 17.5185C110.095 17.5185 111.007 17.6999 111.798 18.0629C112.593 18.4258 113.219 18.9254 113.677 19.5618C114.134 20.1932 114.373 20.919 114.393 21.7393H112.17ZM116.602 19.7109V17.7273H128.422V19.7109H123.657V33H121.36V19.7109H116.602ZM130.519 33H128.073L133.569 17.7273H136.232L141.728 33H139.282L134.964 20.5014H134.845L130.519 33ZM130.929 27.0192H138.864V28.9581H130.929V27.0192ZM153.551 22.5522C153.407 22.0998 153.213 21.6946 152.97 21.3366C152.731 20.9737 152.445 20.6655 152.112 20.4119C151.779 20.1534 151.399 19.957 150.971 19.8228C150.549 19.6886 150.084 19.6214 149.577 19.6214C148.717 19.6214 147.941 19.8427 147.25 20.2852C146.559 20.7276 146.012 21.3764 145.609 22.2315C145.212 23.0817 145.013 24.1232 145.013 25.3562C145.013 26.5941 145.214 27.6406 145.617 28.4957C146.019 29.3509 146.571 29.9996 147.272 30.4421C147.973 30.8846 148.771 31.1058 149.666 31.1058C150.496 31.1058 151.22 30.9368 151.836 30.5987C152.458 30.2607 152.937 29.7834 153.276 29.1669C153.619 28.5455 153.79 27.8146 153.79 26.9744L154.387 27.0863H150.017V25.1847H156.02V26.9222C156.02 28.2049 155.746 29.3185 155.2 30.2631C154.658 31.2028 153.907 31.9286 152.947 32.4407C151.993 32.9528 150.899 33.2088 149.666 33.2088C148.284 33.2088 147.071 32.8906 146.027 32.2543C144.988 31.6179 144.178 30.7156 143.596 29.5472C143.014 28.3739 142.723 26.9819 142.723 25.3711C142.723 24.1531 142.892 23.0593 143.23 22.0898C143.568 21.1204 144.043 20.2976 144.655 19.6214C145.271 18.9403 145.995 18.4208 146.825 18.0629C147.66 17.6999 148.572 17.5185 149.562 17.5185C150.387 17.5185 151.155 17.6403 151.866 17.8839C152.582 18.1275 153.218 18.473 153.775 18.9205C154.337 19.3679 154.802 19.8999 155.17 20.5163C155.538 21.1278 155.786 21.8065 155.915 22.5522H153.551ZM158.945 33V17.7273H164.389C165.572 17.7273 166.554 17.9311 167.335 18.3388C168.12 18.7464 168.707 19.3107 169.095 20.0316C169.482 20.7475 169.676 21.5753 169.676 22.5149C169.676 23.4496 169.48 24.2724 169.087 24.9833C168.699 25.6893 168.113 26.2386 167.327 26.6314C166.547 27.0241 165.565 27.2205 164.381 27.2205H160.258V25.2369H164.173C164.918 25.2369 165.525 25.13 165.992 24.9162C166.465 24.7024 166.81 24.3917 167.029 23.984C167.248 23.5763 167.357 23.0866 167.357 22.5149C167.357 21.9382 167.245 21.4386 167.021 21.016C166.803 20.5934 166.457 20.2702 165.985 20.0465C165.517 19.8178 164.903 19.7035 164.143 19.7035H161.249V33H158.945ZM166.484 26.1094L170.258 33H167.633L163.934 26.1094H166.484ZM173.77 33H171.324L176.82 17.7273H179.483L184.979 33H182.533L178.215 20.5014H178.096L173.77 33ZM174.18 27.0192H182.115V28.9581H174.18V27.0192ZM187.184 17.7273H189.981L194.843 29.5994H195.022L199.884 17.7273H202.681V33H200.488V21.9482H200.347L195.842 32.9776H194.023L189.518 21.9407H189.377V33H187.184V17.7273Z" fill="#111111" />
