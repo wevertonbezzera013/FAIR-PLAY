@@ -19,11 +19,11 @@ const Home: NextPage = () => {
         <div className='bg-img'>
           <div className='container pl-10 pr-10 absolute top-24'>
             <span className='text-white text-3xl font-bold text-left break-words lg:text-7xl'>
-              Transformando vidas por meio da arte, oportunidade e formação de cidadãos.
+              Transformando vidas por meio da arte.
             </span>
             <br />
             <div className='container pt-1'>
-              <span className='text-white text-2xl font-thin break-words lg:text-5xl'>Um esporte que une pessoas de diversas origens, descobre talentos e constrói caminhos promissores, tanto nos campos de várzea quanto nos grandes estádios.</span>
+              <span className='text-white text-2xl font-thin break-words lg:text-5xl'>O futebol é um esporte que une pessoas de diversas origens, descobre talentos e constrói caminhos promissores.</span>
             </div>
 
             <a href="/donate">
